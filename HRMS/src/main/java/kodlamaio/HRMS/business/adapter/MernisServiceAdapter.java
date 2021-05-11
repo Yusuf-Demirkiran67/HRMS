@@ -30,9 +30,4 @@ public class MernisServiceAdapter implements JobSeekerCheckService{
 		}
 	}
 
-	@Override
-	public boolean CheckIfExistJobSeeker(int id) {
-		
-		return this.jobSeekerDao.existsById(id);
-	}
 }

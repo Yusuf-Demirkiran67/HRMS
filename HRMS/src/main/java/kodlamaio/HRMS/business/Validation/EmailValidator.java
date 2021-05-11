@@ -1,4 +1,4 @@
-package kodlamaio.HRMS.business.EmailValidation;
+package kodlamaio.HRMS.business.Validation;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
 @Table(name="employees")
 public class Employee extends Person{
@@ -18,9 +19,10 @@ public class Employee extends Person{
 	@Column(name="first_name")
 	private String FirstName;
 	
+	
 	@Column(name="last_name")
 	private String LastName;
-
+	
 	public Employee(int id, String email, String password, String repeatPassword, int employeeId, String firstName,
 			String lastName) {
 		super(id, email, password, repeatPassword);
